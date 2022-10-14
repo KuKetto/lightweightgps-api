@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@loopback/authentication": "^9.0.3",
+    "@loopback/authentication-jwt": "^0.12.3",
+    "bcryptjs": "^2.4.3",
+    "loopback-connector-mongodb": "^6.2.0"
+  }
+}
