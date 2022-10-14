@@ -52,7 +52,7 @@ Waits:
 
 `"averageVelocity": "number"`
 
-`"velocities": "array"
+`"velocities": "array"`
 
 velocities is an instance of
 
