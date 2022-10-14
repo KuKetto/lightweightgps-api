@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+
+  api:
+    container_name: api
+    build: .
+    environment:
+      - MONGO_HOST=mongodb
+    ports:
+      - custom_port:3000
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:5.0
+    ports:
+      - 27017:27017
+    volumes:
+      - ../../volumes/mongo:/data/db
